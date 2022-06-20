@@ -1,0 +1,40 @@
+:root{
+    --primary-color: whitesmoke;
+    --secondary-color: #374722;
+    --other-color: rgb(44, 43, 43);
+    --bright-background: #ebebeb6e;
+    --border-new: #383737e0;
+    --primary-font: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+body>button{
+    color: var(--other-color);
+    background-color: var(--bright-background);
+    padding: 0.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0.5em;
+    border-color: var(--border-new);
+}
+body>div>p,span{
+    -webkit-text-stroke: thin;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+}
+body>div>p::before{
+    -webkit-text-fill-color: var(--primary-color);
+}

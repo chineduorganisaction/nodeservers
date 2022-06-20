@@ -1,0 +1,192 @@
+{
+    "customers": [
+        {
+            "id":1, 
+            "name":
+                {
+                    "firstname": "Tommy",
+                    "lastname": "Joseph"
+                },
+            "products": [
+                {
+                    "name": "mango",
+                    "qty": 3,
+                    "package": "packs",
+                    "price": "$3"
+                },
+                {
+                    "name": "grey-wine",
+                    "qty": 1,
+                    "package": "pack",
+                    "price": "$50"
+                },
+                {
+                    "name": "Bread",
+                    "qty": 1,
+                    "package": "piece",
+                    "price": "$10"
+                }
+            ],
+            "purchase-group": "Light"
+        },
+        {
+            "id":2, 
+            "name":
+                {
+                    "firstname": "Fedrick",
+                    "lastname": "Clerk"
+                },
+            "products": [
+                {
+                    "name": "gucci shoe",
+                    "qty": 2,
+                    "package": "pairs",
+                    "product-color": [
+                        "green-fish-stain",
+                        "black-swish"
+                    ]
+                },
+                {
+                    "name": "LG-Television",
+                    "qty": 1,
+                    "package": "piece",
+                    "product-type": "65 inches",
+                    "product-style": "Android smart-tv"
+                },
+                {
+                    "name": "center-table",
+                    "qty": 1,
+                    "package": "set",
+                    "inclusion": "4 big chairs",
+                    "product-color": "gold",
+                    "product-type": "royal"
+                }
+            ],
+            "purchase-group": "Heavy"
+        },
+        {
+            "id":3, 
+            "name": 
+                {
+                    "firstname": "John",
+                    "lastname": "Fisher"
+                },
+            "products": [
+                {
+                    "name": "venadium hammer-jaw",
+                    "qty": 1,
+                    "package": "set",
+                    "price": "$150"
+                },
+                {
+                    "name": "wood-drill",
+                    "qty": 1,
+                    "package": "set",
+                    "price": "$250",
+                    "product-type": "red rose"
+                },
+                {
+                    "name": "palit screw-driver",
+                    "qty": 1,
+                    "package": "set",
+                    "price": "$400",
+                    "product-type": "royal"
+                }
+            ],
+            "purchase-group": "Heavy"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": [
+                {
+                    "firstname": "Christian",
+                    "lastname": "Michelle"
+                }
+            ],
+            "tag-no": "2012347",
+            "role": "store-worker",
+            "working-hours": 4,
+            "working-hours-length": "hours/day",
+            "absences": 2,
+            "absences-days-length": "days",
+            "complaints": "none",
+            "shift-time-skip": "8am - 12pm"
+        },
+        {
+            "id": 2,
+            "name": [
+                {
+                    "firstname": "Steven",
+                    "lastname": "Vesdeck"
+                }
+            ],
+            "tag-no": "2012385",
+            "role": "store-manager",
+            "working-hours": 4,
+            "working-hours-length": "hours/day",
+            "absences": 1,
+            "absences-days-length": "days",
+            "complaints": "none",
+            "shift-time-skip": "morning"
+        },
+        {
+            "id": 3,
+            "name": [
+                {
+                    "firstname": "Lee",
+                    "lastname": "Arnold"
+                }
+            ],
+            "tag-no": "2012534",
+            "role": "store-ict",
+            "working-hours": 4,
+            "working-hours-length": "hours/day",
+            "absences": 0,
+            "absences-days-length": "days",
+            "complaints": "none",
+            "shift-time-skip": "afternoon"
+        },
+        {
+            "id": 4,
+            "name": [
+                {
+                    "firstname": "Maya",
+                    "lastname": "Thomas"
+                }
+            ],
+            "tag-no": "2012385",
+            "role": "store-ganitor",
+            "working-hours": 4,
+            "working-hours-length": "hours/day",
+            "absences": 3,
+            "absences-days-length": "days",
+            "complaints": "bad approach",
+            "shift-time-skip": "afternoon"
+        }
+    ],
+    "company-schedule": [
+        {
+            "time": "8am - 4pm",
+            "scheme": "start and stop",
+            "days-of-operations": 6,
+            "days-of-operation-type": "days/week"
+        },
+        {
+            "workers-in-number": 30,
+            "daily-checkins": "80% of workers"
+        },
+        {
+            "shifts": 2,
+            "shift-time-skip": {
+                "morning": "8am-12pm",
+                "afternoon": "1pm - 4pm"
+            }
+        },
+        {
+            "daily-inspection": "tag-no",
+            "check-in-area": "gate"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./nodefile/server.js",
+    "host": "nodemon ./nodefile/host.js",
+    "start": "start npm run server && start npm run host"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.5",
+    "pdf-parse": "^1.1.1",
+    "undici": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
